@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5431/culinary_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
+server:
+  port: 8080
+
+
+telegram:
+  bot:
+    token: "8003344673:AAGQ0pXQnJ-eQyEFyNUwR2N_MV5s53PmyFM"
+    username: "3_sem"
+
+deepseek:
+  api:
+    token: "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"
+
