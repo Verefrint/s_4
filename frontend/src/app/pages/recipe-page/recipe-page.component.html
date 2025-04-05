@@ -6,7 +6,7 @@
             <a [routerLink]="'recipes'">Рецепты</a>
             <a (click)="this.redirectToProfile('masterclasses')" routerLinkActive="active" >Мастер-классы</a>
             <a (click)="this.redirectToProfile('profile')" >Личный кабинет</a>
-            <a href="https://t.me/Coooking_MasterClass_bot">Бот</a>
+            <a (click)="this.redirectToProfile('bot')">Бот</a>
         </nav>
   
     <h2>Рецепты</h2>

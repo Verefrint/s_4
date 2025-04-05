@@ -1,12 +1,11 @@
 import { Component } from '@angular/core';
-import { Observable } from 'rxjs';
 import { Recipe } from '../../models/models';
 import { MainServiceService } from '../../service/main-service.service';
 import { Router, RouterLink } from '@angular/router';
 
 @Component({
   selector: 'app-recipe-page',
-  imports: [RouterLink, RouterLink],
+  imports: [RouterLink],
   templateUrl: './recipe-page.component.html',
   styleUrl: './recipe-page.component.css'
 })

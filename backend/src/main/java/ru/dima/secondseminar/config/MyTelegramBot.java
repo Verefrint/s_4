@@ -63,7 +63,7 @@ public class MyTelegramBot extends TelegramLongPollingBot {
         }
     }
 
-    private String callDeepSeek(String userMessage) {
+    public String callDeepSeek(String userMessage) {
         String apiUrl = "https://openrouter.ai/api/v1/chat/completions";
 
         TelegramDTO dto = new TelegramDTO("deepseek/deepseek-chat:free", List.of(new MessageDto("user", userMessage)));
